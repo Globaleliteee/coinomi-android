@@ -91,6 +91,7 @@
                 <data android:scheme="jumbucks" />
                 <data android:scheme="vpncoin" />
                 <data android:scheme="novacoin" />
+				<data android:scheme="gamecredits" />
                 <data android:scheme="shadowcash" />
                 <data android:scheme="canadaecoin" />
                 <data android:scheme="parkbyte" />

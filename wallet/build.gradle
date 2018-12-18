@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.coinomi.wallet.dev"
@@ -10,6 +10,12 @@ android {
         targetSdkVersion 23
         versionCode 56
         versionName "v1.6.3"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath = true
+            }
+        }
     }
 
     buildTypes {

@@ -17,10 +17,12 @@
 
     <FrameLayout
         android:layout_width="match_parent"
+        android:visibility="invisible"
         android:layout_height="wrap_content"
         android:background="@color/white">
 
         <Button
+            android:visibility="invisible"
             android:id="@+id/add_coins"
             style="@style/BorderlessButtonLink"
             android:layout_width="match_parent"
